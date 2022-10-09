@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<di>
+    <h3>Dados do Estudante</h3>
+
+    <h4 style="text-align: justify" th:text="${student.firstName}"></h4>
+    <h4 style="text-align: justify" th:text="${student.lastName}"></h4>
+    <h4 style="text-align: justify" th:text="${student.course}"></h4>
+</di>
+
+</body>
+</html>
